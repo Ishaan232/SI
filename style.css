@@ -1,0 +1,33 @@
+body{
+    background-color: forestgreen;
+}
+h1{
+    color: darkcyan;
+    background-color: chartreuse;
+}
+#idfb{
+    float:right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#something{
+    margin-top: 0;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:  50px; 
+}
+@keyframes s{
+    from{
+        box-shadow: 1px 1px 38px greenyellow;
+    }
+    to{
+        box-shadow: 1px 1px 38px blue;
+    }
+}
